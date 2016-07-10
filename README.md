@@ -2,7 +2,7 @@
 
 A game there you have to cut land without getting catched by the enemies.
 
-![alt tag](https://davidroller.visualstudio.com/DefaultCollection/c995a66b-34a9-4f89-9f39-5b44f6e100a9/_api/_versioncontrol/itemContent?repositoryId=16940876-a359-40c4-b381-efb7ab73d542&path=%2FPictures%2FWindowsRelease_1.0.3.png&version=GBmaster&contentOnly=false&__v=5)
+![alt tag](Pictures/WindowsRelease_1.0.3.png)
 
 ### 3rd party libraries
 The game uses for low level access to audio, keyboard, mouse, joystick, and graphics hardware
