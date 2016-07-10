@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601645261988380300EA7E22 /* FreeType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601645251988380300EA7E22 /* FreeType.framework */; };
+		6016452A198838A100EA7E22 /* SDL2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60164529198838A100EA7E22 /* SDL2.dylib */; };
+		6016452E19883A2F00EA7E22 /* FreeType.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 601645251988380300EA7E22 /* FreeType.framework */; };
+		601E6D4419882F10007324C6 /* SDL_ttf.h in Headers */ = {isa = PBXBuildFile; fileRef = 601E6D4319882F10007324C6 /* SDL_ttf.h */; };
+		601E6D4819882F1B007324C6 /* glfont.c in Sources */ = {isa = PBXBuildFile; fileRef = 601E6D4519882F1B007324C6 /* glfont.c */; };
+		601E6D4919882F1B007324C6 /* SDL_ttf.c in Sources */ = {isa = PBXBuildFile; fileRef = 601E6D4619882F1B007324C6 /* SDL_ttf.c */; };
+		60C3062C198849D50029FE70 /* default.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 60C3062B198849D50029FE70 /* default.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6016452D19883A2100EA7E22 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				60C3062C198849D50029FE70 /* default.ttf in CopyFiles */,
+				6016452E19883A2F00EA7E22 /* FreeType.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		601645251988380300EA7E22 /* FreeType.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FreeType.framework; path = ../../FreeType/FreeType.framework; sourceTree = "<group>"; };
+		60164529198838A100EA7E22 /* SDL2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = SDL2.dylib; path = "../../../../../../Library/Developer/Xcode/DerivedData/Cutter-edrvhjkwibxsjvdhzdnlhbtbpddo/Build/Products/Debug/SDL2.dylib"; sourceTree = "<group>"; };
+		601E6D3119882E58007324C6 /* SDL2_ttf.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = SDL2_ttf.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		601E6D4319882F10007324C6 /* SDL_ttf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDL_ttf.h; path = Header/SDL_ttf.h; sourceTree = "<group>"; };
+		601E6D4519882F1B007324C6 /* glfont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = glfont.c; path = Source/glfont.c; sourceTree = "<group>"; };
+		601E6D4619882F1B007324C6 /* SDL_ttf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_ttf.c; path = Source/SDL_ttf.c; sourceTree = "<group>"; };
+		60C3062B198849D50029FE70 /* default.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = default.ttf; path = ../../Font/default.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601E6D2E19882E58007324C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6016452A198838A100EA7E22 /* SDL2.dylib in Frameworks */,
+				601645261988380300EA7E22 /* FreeType.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6016452B198838FC00EA7E22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60164529198838A100EA7E22 /* SDL2.dylib */,
+				601645251988380300EA7E22 /* FreeType.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		601E6D2819882E58007324C6 = {
+			isa = PBXGroup;
+			children = (
+				60C3062D198849E10029FE70 /* Font */,
+				6016452B198838FC00EA7E22 /* Frameworks */,
+				601E6D4219882EF8007324C6 /* Header */,
+				601E6D4119882EF1007324C6 /* Source */,
+				601E6D3219882E58007324C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		601E6D3219882E58007324C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601E6D3119882E58007324C6 /* SDL2_ttf.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		601E6D4119882EF1007324C6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				601E6D4519882F1B007324C6 /* glfont.c */,
+				601E6D4619882F1B007324C6 /* SDL_ttf.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		601E6D4219882EF8007324C6 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				601E6D4319882F10007324C6 /* SDL_ttf.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		60C3062D198849E10029FE70 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				60C3062B198849D50029FE70 /* default.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		601E6D2F19882E58007324C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601E6D4419882F10007324C6 /* SDL_ttf.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		601E6D3019882E58007324C6 /* SDL2_ttf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601E6D3519882E58007324C6 /* Build configuration list for PBXNativeTarget "SDL2_ttf" */;
+			buildPhases = (
+				601E6D2D19882E58007324C6 /* Sources */,
+				601E6D2E19882E58007324C6 /* Frameworks */,
+				601E6D2F19882E58007324C6 /* Headers */,
+				6016452D19883A2100EA7E22 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDL2_ttf;
+			productName = SDL2_ttf;
+			productReference = 601E6D3119882E58007324C6 /* SDL2_ttf.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		601E6D2919882E58007324C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "David Roller";
+			};
+			buildConfigurationList = 601E6D2C19882E58007324C6 /* Build configuration list for PBXProject "SDL2_ttf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 601E6D2819882E58007324C6;
+			productRefGroup = 601E6D3219882E58007324C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				601E6D3019882E58007324C6 /* SDL2_ttf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		601E6D2D19882E58007324C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601E6D4919882F1B007324C6 /* SDL_ttf.c in Sources */,
+				601E6D4819882F1B007324C6 /* glfont.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		601E6D3319882E58007324C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		601E6D3419882E58007324C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		601E6D3619882E58007324C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/droller/Source/Cutter/Cutter/3rdParty/FreeType,
+				);
+				INSTALL_PATH = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/droller/Source/Cutter/Cutter/3rdParty/SimpleDirectMediaLayer/SDL2/build/Debug,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Cutter-edrvhjkwibxsjvdhzdnlhbtbpddo/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../SDL2/Header ../../FreeType/FreeType.framework/Headers";
+			};
+			name = Debug;
+		};
+		601E6D3719882E58007324C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/droller/Source/Cutter/Cutter/3rdParty/FreeType,
+				);
+				INSTALL_PATH = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/droller/Source/Cutter/Cutter/3rdParty/SimpleDirectMediaLayer/SDL2/build/Debug,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Cutter-edrvhjkwibxsjvdhzdnlhbtbpddo/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../SDL2/Header ../../FreeType/FreeType.framework/Headers";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		601E6D2C19882E58007324C6 /* Build configuration list for PBXProject "SDL2_ttf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601E6D3319882E58007324C6 /* Debug */,
+				601E6D3419882E58007324C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601E6D3519882E58007324C6 /* Build configuration list for PBXNativeTarget "SDL2_ttf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601E6D3619882E58007324C6 /* Debug */,
+				601E6D3719882E58007324C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 601E6D2919882E58007324C6 /* Project object */;
+}
